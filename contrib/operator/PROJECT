@@ -1,0 +1,7 @@
+version: "2"
+domain: sigs.k8s.io
+repo: sigs.k8s.io/kubespray
+resources:
+- group: cluster
+  version: v1alpha1
+  kind: Operation
